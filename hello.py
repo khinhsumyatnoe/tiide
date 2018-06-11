@@ -2,8 +2,8 @@ from flask import Flask
 app = Flask(_name_)
 
 @app.route("/")
-def hello():
+def khin():
     return "Hello world"
-@app.route("/tiide")
+@app.route("/khin")
 def tiide():
-    return "Welcome to TIIDE World"
+    return "Welcome to khinhsumyatnoe"
